@@ -1,0 +1,138 @@
+{
+  "cube": "3x3",
+  "general_description": "This training guide is for the 3x3 Rubik's Cube, focusing on algorithms to solve specific patterns.",
+  "categories": {
+    "PLL": [
+      {
+        "title": "Y-Perm",
+        "description": "The Y-Perm swaps two corners and two edges, and it is part of the PLL algorithms.",
+        "setup_moves": {
+          "moves": "R U R' F' R U R' U' R' F R2 U' R' U'"
+        },
+        "initial_state": {
+          "description": "The cube shows a typical Y-Perm pattern with swapped corners and edges.",
+          "image": ""
+        },
+        "algorithms": [
+          {
+            "name": "Standard Y-Perm",
+            "notation": "R U R' U' R' F R2 U' R' U' R U R' F'",
+            "image": "",
+            "note": "This is the most commonly used Y-Perm algorithm. Practice the finger tricks for speed."
+          },
+          {
+            "name": "Alternative Y-Perm",
+            "notation": "F R U' R' U' R U R' F' R U R' U' R' F R F'",
+            "image": "",
+            "note": "This variation is less common but can be easier to execute depending on your grip."
+          }
+        ]
+      }
+    ],
+    "OLL": [
+      {
+        "title": "OLL Example",
+        "description": "Example OLL algorithm that orients all last-layer pieces.",
+        "setup_moves": {
+          "moves": "U R U2 R2 U' R2 U' R2 U2 R"
+        },
+        "initial_state": {
+          "description": "The cube shows an unsolved orientation for the last layer.",
+          "image": ""
+        },
+        "algorithms": [
+          {
+            "name": "Standard OLL Algorithm",
+            "notation": "R U2 R2 U' R2 U' R2 U2 R",
+            "image": "",
+            "note": "A straightforward algorithm to orient all last-layer pieces."
+          }
+        ]
+      }
+    ],
+    "F2L": [
+      {
+        "title": "F2L Example",
+        "description": "An F2L case where a corner and edge need to be paired and inserted.",
+        "setup_moves": {
+          "moves": "U R U' R' U' F' U F"
+        },
+        "initial_state": {
+          "description": "A corner and edge are separated and need to be paired.",
+          "image": ""
+        },
+        "algorithms": [
+          {
+            "name": "Standard F2L Algorithm",
+            "notation": "R U R' U' R U R'",
+            "image": "",
+            "note": "Focus on inserting the pair efficiently without disturbing other pieces."
+          }
+        ]
+      }
+    ],
+    "Cross": [
+      {
+        "title": "White Cross Example",
+        "description": "An example of creating the white cross on the bottom layer.",
+        "setup_moves": {
+          "moves": "F R U R' U' F'"
+        },
+        "initial_state": {
+          "description": "A partially solved white cross with one misplaced edge.",
+          "image": ""
+        },
+        "algorithms": [
+          {
+            "name": "White Cross Fix",
+            "notation": "F R U R' U' F'",
+            "image": "",
+            "note": "Practice aligning edges with the center pieces for efficiency."
+          }
+        ]
+      }
+    ],
+    "Basic Moves": [
+      {
+        "title": "Cube Notation",
+        "description": "A guide to understanding basic cube notation like R, U, F, and their inverses.",
+        "setup_moves": {
+          "moves": ""
+        },
+        "initial_state": {
+          "description": "The cube in its solved state.",
+          "image": ""
+        },
+        "algorithms": [
+          {
+            "name": "Clockwise Turn Example",
+            "notation": "R U",
+            "image": "",
+            "note": "Understand how each notation affects the cube."
+          }
+        ]
+      }
+    ],
+    "Advanced Patterns": [
+      {
+        "title": "Checkerboard Pattern",
+        "description": "Create the famous checkerboard pattern on the cube.",
+        "setup_moves": {
+          "moves": "M2 E2 S2"
+        },
+        "initial_state": {
+          "description": "The solved cube.",
+          "image": ""
+        },
+        "algorithms": [
+          {
+            "name": "Checkerboard Algorithm",
+            "notation": "M2 E2 S2",
+            "image": "",
+            "note": "This is a fun pattern to create and revert to solved state."
+          }
+        ]
+      }
+    ]
+  }
+}
